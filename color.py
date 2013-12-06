@@ -12,6 +12,7 @@ capture = cv2.VideoCapture(0)
 lastCheer = time.clock() - 3600
 
 def tweetColor(color,frame):
+    global capture
     global lastCheer
     try:
         print "========================Tweeting" + color + "==========================="
