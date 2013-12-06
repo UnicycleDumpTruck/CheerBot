@@ -45,7 +45,7 @@ def tweetColor(color,frame):
         print "Oops, something went wrong! Twitter returned error #%i and said: %s" % (err.code, err.description)
 
 def main():
-
+    global capture
     # captured image size
     width = 320
     height = 240
